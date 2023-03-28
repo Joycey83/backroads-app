@@ -23,7 +23,7 @@ const About = () => {
               Aspernatur quisquam harum nam cumque temporibus explicabo dolorum
               sapiente odio unde dolor?
             </p>
-            <a href="#" className="btn">
+            <a href="#home" className="btn">
               read more
             </a>
           </article>
