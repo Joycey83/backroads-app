@@ -11,7 +11,7 @@ const Footer = () => {
           parentClass="footer-links"
           itemClass="footer-link"
         />
-        {/* Keeping this as a reference */}
+        {/* Keeping this as a reference IF it was not a seperate component*/}
         {/* <ul className="footer-links">
           {pageLinks.map((link) => {
             const { id, href, text } = link;
@@ -25,7 +25,6 @@ const Footer = () => {
           })}
         </ul> */}
 
-        <SocialLinks />
         <ul className="footer-icons">
           {socialLinks.map((link) => {
             return (
